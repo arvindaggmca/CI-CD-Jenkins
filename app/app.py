@@ -7,4 +7,4 @@ def hello_world():
     return 'Hello, everyone!'
 
 if __name__ == '__main__':
-    app.run(debug=True, host='13.233.159.182')
+     app.run(debug=True, port=5000, host='0.0.0.0')
